@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+.Typewriter {
+  display: inline;
+}
+
+
+/* Animation styles */
+@keyframes orbit-rotate {
+  from {
+    transform: rotate(var(--current-angle)) translateX(var(--current-radius)) rotate(calc(-1 * var(--current-angle)));
+  }
+  to {
+    transform: rotate(calc(var(--current-angle) + 360deg)) translateX(var(--current-radius)) rotate(calc(-1 * (var(--current-angle) + 360deg)));
+  }
+}
+
+/* Container styles */
+.scrolling-images-container {
+  @apply w-full lg:w-1/2 h-full order-1 lg:order-2 flex flex-col items-center justify-center py-4 lg:py-8;
+}
+
+/* Tech icon styles */
+.icon-wrapper {
+  transform-origin: center;
+}
+
+.icon-wrapper:hover img {
+  transform: scale(1.15);
+}
+
+/* Tooltip styles */
+.tech-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-bottom: 8px;
+  opacity: 0;
+  animation: fadeIn 0.2s ease-out forwards;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+}
+
+.tech-tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+
+.emoji-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-tooltip {
+    max-width: 280px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .tech-tooltip {
+    font-size: 0.65rem;
+    padding: 4px 8px;
+  }
+  
+  .emoji-circle {
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-tooltip {
+    max-width: 240px;
+  }
+  
+  .tech-tooltip {
+    white-space: normal;
+    max-width: 100px;
+    text-align: center;
+  }
+}

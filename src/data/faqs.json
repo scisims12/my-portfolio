@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What technologies do you specialize in?",
+    "answer": "I specialize in three areas: building websites (using tools like Softr along with HTML, CSS, and JavaScript), server & hosting administration (cPanel, WHM, Apache on Linux), and database management (MySQL, phpMyAdmin). I handle a project end-to-end, from the front-end pages down to the server it runs on."
+  },
+  {
+    "question": "What kind of projects have you built?",
+    "answer": "My main project is childrenchoicebooks.com, where I handle the website itself as well as the hosting and server side — cPanel/WHM configuration, Apache setup, and the MySQL database that powers the site."
+  },
+  {
+    "question": "Do you have experience managing servers and hosting?",
+    "answer": "Yes. I work daily with cPanel and WHM to manage hosting accounts, domains, and server settings, and I'm comfortable configuring Apache on Linux servers to keep sites running reliably."
+  },
+  {
+    "question": "How do you manage databases?",
+    "answer": "I manage MySQL databases both directly and through phpMyAdmin — creating and updating schemas, writing queries, taking backups, and troubleshooting issues so the data behind a website stays accurate and available."
+  },
+  {
+    "question": "What tools do you use to build websites?",
+    "answer": "I build websites using Softr along with core HTML, CSS, and JavaScript, which lets me put together clean, functional pages quickly while still having full control over structure and styling when I need it."
+  },
+  {
+    "question": "Are you able to handle a project from front-end to server?",
+    "answer": "Yes — that's exactly my focus. I build the pages, manage the hosting environment through cPanel & WHM, and take care of the MySQL database, so I can own a website project from the front-end down to the infrastructure."
+  },
+  {
+    "question": "Can you maintain and troubleshoot an existing website?",
+    "answer": "Yes. Whether it's a page bug, a hosting/server issue in cPanel or WHM, or a database problem in MySQL, I can diagnose and fix issues across the full stack of a live site."
+  },
+  {
+    "question": "What is your development background?",
+    "answer": "I hold a Bachelor of Computer Applications (BCA), and since December 2025 I've been working with Children Choice Publication as a Website Developer, managing childrenchoicebooks.com along with its hosting and database."
+  }
+]

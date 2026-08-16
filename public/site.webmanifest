@@ -1,0 +1,22 @@
+{
+  "name": "Priyanshu Sharma | Website Developer & cPanel/WHM Specialist",
+  "short_name": "Priyanshu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#2563EB",
+  "description": "Portfolio of Priyanshu Sharma — a Website Developer specializing in cPanel & WHM server administration and MySQL database management.",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

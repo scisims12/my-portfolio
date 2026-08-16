@@ -1,0 +1,115 @@
+{
+  "id": "hosting-bundle",
+  "subtitle": "I build and manage websites end-to-end — from front-end pages to the servers that run them. I specialize in cPanel & WHM administration, Apache/Linux server management, and MySQL database management, with hands-on experience delivering and maintaining childrenchoicebooks.com.",
+  "badge": "Website Developer / cPanel & WHM Specialist </>",
+  "gradient": "from-blue-400 via-cyan-400 to-indigo-500",
+  "buttonColor": "from-blue-500 to-indigo-500",
+  "image": "/priyanshu-sharma.png",
+  "experience": [
+    {
+      "title": "Website Developer, Server & Database Management",
+      "location": "Children Choice Publication",
+      "duration": "Dec 2025 - Present",
+      "description": [
+        "Building and maintaining childrenchoicebooks.com, handling everything from page updates to backend upkeep.",
+        "Managing hosting and server infrastructure via cPanel & WHM, including Apache configuration on Linux servers.",
+        "Handling MySQL databases directly and through phpMyAdmin — schema updates, queries, backups, and troubleshooting."
+      ],
+      "icon": "💻"
+    }
+  ],
+  "education": [
+    {
+      "location": "Computer Applications",
+      "duration": "Graduate",
+      "title": "Bachelor of Computer Applications (BCA)",
+      "icon": "🎓"
+    }
+  ],
+  "techIcons": [
+    {
+      "name": "cPanel",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cpanel/cpanel-original.svg",
+      "size": "large",
+      "angle": 0,
+      "tooltipColor": "#FF6C2C"
+    },
+    {
+      "name": "Apache",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
+      "size": "large",
+      "angle": 60,
+      "tooltipColor": "#D22128"
+    },
+    {
+      "name": "Linux",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      "size": "large",
+      "angle": 120,
+      "tooltipColor": "#FCC624"
+    },
+    {
+      "name": "MySQL",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      "size": "large",
+      "angle": 180,
+      "tooltipColor": "#4479A1"
+    },
+    {
+      "name": "phpMyAdmin",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "size": "large",
+      "angle": 240,
+      "tooltipColor": "#6C78AF"
+    },
+    {
+      "name": "WHM",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cpanel/cpanel-original.svg",
+      "size": "large",
+      "angle": 300,
+      "tooltipColor": "#FF6C2C"
+    },
+    {
+      "name": "HTML",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "size": "small",
+      "angle": 0,
+      "tooltipColor": "#E34F26"
+    },
+    {
+      "name": "CSS",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "size": "small",
+      "angle": 60,
+      "tooltipColor": "#1572B6"
+    },
+    {
+      "name": "JavaScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "size": "small",
+      "angle": 120,
+      "tooltipColor": "#F7DF1E"
+    },
+    {
+      "name": "Softr",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+      "size": "small",
+      "angle": 180,
+      "tooltipColor": "#000000"
+    },
+    {
+      "name": "Bash",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      "size": "small",
+      "angle": 240,
+      "tooltipColor": "#4EAA25"
+    },
+    {
+      "name": "SSH",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      "size": "small",
+      "angle": 300,
+      "tooltipColor": "#000000"
+    }
+  ]
+}
