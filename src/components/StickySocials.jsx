@@ -27,7 +27,7 @@ const FloatSocialIcons = () => {
       icon: FaLinkedin,
       name: "LinkedIn",
       color: "#0A66C2",
-      url: "https://www.linkedin.com/in/PLACEHOLDER-ADD-YOUR-LINKEDIN",
+      url: "https://www.linkedin.com/in/priyanshu-sharma-a59293241/",
     },
   ];
 
