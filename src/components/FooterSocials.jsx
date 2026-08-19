@@ -9,7 +9,7 @@ const FooterSocial = () => {
       id: "linkedin",
       icon: FiLinkedin,
       label: "Priyanshu Sharma",
-      url: "https://www.linkedin.com/in/PLACEHOLDER-ADD-YOUR-LINKEDIN",
+      url: "https://www.linkedin.com/in/priyanshu-sharma-a59293241/",
       color: "#0e76a8",
     },
     {
