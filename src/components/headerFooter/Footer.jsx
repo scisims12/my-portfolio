@@ -115,7 +115,7 @@ const Footer = () => {
               Open to freelance, consulting, or just a tech chat over coffee.
             </p>
             <motion.a
-              href="https://www.linkedin.com/in/PLACEHOLDER-ADD-YOUR-LINKEDIN"
+              href="https://www.linkedin.com/in/priyanshu-sharma-a59293241/"
               target="_blank"
               className="px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden"
               style={{
@@ -155,7 +155,7 @@ const Footer = () => {
             className="text-xs tracking-wider"
             style={{ color: themeColors.summeryText }}
           >
-            © {new Date().getFullYear()} <a href="https://www.linkedin.com/in/PLACEHOLDER-ADD-YOUR-LINKEDIN"><span style={{ color: themeColors.primaryColor }}>Priyanshu</span></a> · Built and hosted with care.
+            © {new Date().getFullYear()} <a href="https://www.linkedin.com/in/priyanshu-sharma-a59293241/"><span style={{ color: themeColors.primaryColor }}>Priyanshu</span></a> · Built and hosted with care.
           </motion.p>
 
           <div className="flex gap-6">
