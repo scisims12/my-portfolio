@@ -3,7 +3,7 @@
 A sleek, interactive portfolio website built with modern web technologies featuring advanced animations and customizable themes, showcasing website development, cPanel & WHM server administration, and MySQL database management.
 
 ## 🔗 Live Demo
-[Visit Portfolio](https://priyanshusharma.vercel.app/)
+[Visit Portfolio](https://my-portfolio-nine-lake-99.vercel.app/)
 
 ## 🛠️ Tech Stack
 - **Frontend**: React.js
