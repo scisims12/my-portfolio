@@ -19,37 +19,18 @@ const projects = [
   },
   {
     title: "Children Choice Books",
-    subtitle: "Website, Hosting & Database — Full Ownership",
+    subtitle: "Office Website, Hosting & Database Management",
     description:
-      "The live website for Children Choice Publication, an educational publishing house. I manage this project end-to-end: building and updating the site itself, administering hosting and server configuration through cPanel & WHM, and maintaining the underlying MySQL database that powers it.",
+      "The office website for Children Choice Publication, an educational publishing house. My work covers website and content updates, hosting and server administration through cPanel & WHM, and maintenance of the underlying MySQL database.",
     tags: ["Softr", "cPanel", "WHM", "Apache", "Linux", "MySQL", "phpMyAdmin"],
     image: "/children-choice-home.png",
-    liveDemo: "https://www.childrenchoicebooks.com/",
+    liveDemo: "/children-choice-books.html",
+    liveDemoLabel: "View Project",
+    liveDemoDescription: "Explore the office website and my work",
     githubRepo: "",
     projectColor: "#2563eb",
   },
-  {
-    title: "Children Choice Books",
-    subtitle: "Book Catalog & Content Pages",
-    description:
-      "The catalog and content pages that showcase the publisher's books. Built and maintained on Softr with custom HTML/CSS/JS touches, kept in sync with the data managed in the backend.",
-    tags: ["Softr", "HTML", "CSS", "JavaScript"],
-    image: "/children-choice-catalog.png",
-    liveDemo: "https://www.childrenchoicebooks.com/",
-    githubRepo: "",
-    projectColor: "#4f46e5",
-  },
-  {
-    title: "Children Choice Books",
-    subtitle: "Server, Hosting & Database Administration",
-    description:
-      "The infrastructure side of the same project — managing the hosting environment via cPanel & WHM, configuring Apache on Linux, and handling the MySQL database directly and through phpMyAdmin to keep everything running smoothly.",
-    tags: ["cPanel", "WHM", "Apache", "Linux", "MySQL", "phpMyAdmin"],
-    image: "/children-choice-admin.png",
-    liveDemo: "https://www.childrenchoicebooks.com/",
-    githubRepo: "",
-    projectColor: "#1e293b",
-  },
+
 ];
 
 const ProjectTimeline = () => {
@@ -143,109 +124,6 @@ const ProjectTimeline = () => {
         </div>
       </div>
 
-      {/* Note */}
-      <motion.div
-        className="max-w-2xl mx-auto mt-20 px-6 relative group"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        viewport={{ once: true, margin: "-50px" }}
-      >
-        <div
-          className="absolute inset-0 rounded-xl pointer-events-none"
-          style={{
-            backgroundColor: themeColors.cardBg,
-            border: `1px solid ${themeColors.borderLight}`,
-            boxShadow: `0 4px 20px ${themeColors.shadow}`,
-            opacity: 0.7,
-          }}
-        />
-
-        <div className="relative z-10 p-6 md:p-8">
-          <div className="flex items-start gap-4">
-            <div>
-              <motion.p
-                className="text-lg md:text-xl leading-relaxed"
-                style={{ color: themeColors.text }}
-                whileHover={{
-                  x: 4,
-                  transition: { duration: 0.3 },
-                }}
-              >
-                <span
-                  className="font-bold"
-                  style={{ color: themeColors.primaryColor }}
-                >
-                  About Children Choice Books:{" "}
-                </span>
-                childrenchoicebooks.com is a real, live production website
-                that I own across the full stack —{" "}
-                <span
-                  className="font-medium"
-                  style={{ color: themeColors.accentBlue }}
-                >
-                  the website itself
-                </span>
-                ,{" "}
-                <span
-                  className="font-medium"
-                  style={{ color: themeColors.accentBlue }}
-                >
-                  the hosting and server
-                </span>
-                , and{" "}
-                <span
-                  className="font-medium"
-                  style={{ color: themeColors.accentBlue }}
-                >
-                  the database behind it
-                </span>
-                . The three Children Choice Books cards show the site, its content layer,
-                and the{" "}
-                <span
-                  className="font-semibold"
-                  style={{ color: themeColors.accentGold }}
-                >
-                  server & database administration
-                </span>{" "}
-                side of the same project.
-              </motion.p>
-
-              <motion.div
-                className="mt-6 pt-4 flex flex-wrap items-center justify-between gap-4 border-t"
-                style={{ borderColor: themeColors.borderLight }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.4 }}
-              >
-                <div className="flex items-center gap-2">
-                  <div
-                    className="w-2 h-2 rounded-full animate-pulse"
-                    style={{ backgroundColor: themeColors.accentRed }}
-                  />
-                  <span
-                    className="text-xs uppercase tracking-wider"
-                    style={{ color: themeColors.summeryText }}
-                  >
-                    Currently Live
-                  </span>
-                </div>
-
-                <div
-                  className="px-3 py-1 rounded-full text-xs font-medium"
-                  style={{
-                    backgroundColor: themeColors.cardSecondary,
-                    color: themeColors.secondary,
-                    border: `1px solid ${themeColors.border}`,
-                  }}
-                >
-                  cPanel & WHM
-                </div>
-              </motion.div>
-            </div>
-          </div>
-        </div>
-      </motion.div>
     </section>
   );
 };

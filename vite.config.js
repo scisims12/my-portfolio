@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         portfolio: fileURLToPath(new URL('./index.html', import.meta.url)),
         mixify: fileURLToPath(new URL('./mixify.html', import.meta.url)),
+        childrenChoice: fileURLToPath(new URL('./children-choice-books.html', import.meta.url)),
       },
     },
   },
