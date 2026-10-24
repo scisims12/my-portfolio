@@ -43,8 +43,8 @@ function RightSideContent() {
               border: `1px solid ${themeColors.border}`,
             }}
           >
-            <p
-              className="text-lg leading-relaxed"
+            <ul
+              className="text-lg leading-relaxed list-disc pl-5 space-y-2"
               style={{ color: themeColors.summeryText }}
             >
               <li>
@@ -72,11 +72,31 @@ function RightSideContent() {
               </li>
 
               <li>
+                <Highlight>Android, Kotlin & Jetpack Compose</Highlight>: Maintaining
+                and extending native Android apps with modern interfaces, playback
+                controls and synced lyrics.
+              </li>
+
+              <li>
+                <Highlight>Mixify</Highlight>: Enhancing an open-source music app
+                with a custom lock-screen player, song and lyrics share cards,
+                Listen Together room links and UI refinements.{" "}
+                <a
+                  href="/mixify.html"
+                  className="underline underline-offset-4"
+                  style={{ color: themeColors.primaryColor }}
+                >
+                  Explore Mixify
+                </a>
+                .
+              </li>
+
+              <li>
                 <Highlight>childrenchoicebooks.com</Highlight>: My primary
                 project, where I own the website, hosting, and database
                 together as one connected system.
               </li>
-            </p>
+            </ul>
           </div>
         </div>
 

@@ -35,6 +35,39 @@ const SkillsSection = () => {
         },
       ],
     },
+    android: {
+      title: "Android Development",
+      description:
+        "Maintaining and extending Mixify with Kotlin and Jetpack Compose — custom lock-screen playback, synced lyrics, share cards and Listen Together room links.",
+      projectLink: "/mixify.html",
+      icons: [
+        {
+          name: "Android",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+          tooltipColor: "#3DDC84",
+        },
+        {
+          name: "Kotlin",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+          tooltipColor: "#7F52FF",
+        },
+        {
+          name: "Jetpack Compose",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
+          tooltipColor: "#4285F4",
+        },
+        {
+          name: "Gradle",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg",
+          tooltipColor: "#289A9A",
+        },
+        {
+          name: "Android Studio",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
+          tooltipColor: "#3DDC84",
+        },
+      ],
+    },
     hosting: {
       title: "Server & Hosting",
       description:
@@ -106,10 +139,10 @@ const SkillsSection = () => {
         <SectionHeader
           title={"Explore My"}
           highlight={"Skills"}
-          subtitle={"Website development, server & hosting, and database management"}
+          subtitle={"Website & Android development, server & hosting, and database management"}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {Object.entries(techCategories).map(([key, category], i) => (
             <motion.div
               key={key}
@@ -143,7 +176,7 @@ const SkillsSection = () => {
                 </motion.p>
               </div>
 
-              <div className="grid grid-cols-4 sm:grid-cols-6 gap-4">
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(72px,1fr))] gap-4">
                 {category.icons.map((tech) => (
                   <motion.div
                     key={tech.name}
@@ -180,6 +213,12 @@ const SkillsSection = () => {
                       />
                     </motion.div>
 
+                    <span
+                      className="mt-2 text-xs text-center leading-snug"
+                      style={{ color: themeColors.summeryText }}
+                    >
+                      {tech.name}
+                    </span>
                     <AnimatePresence>
                       {hoveredTech === tech.name && (
                         <motion.div
@@ -216,6 +255,15 @@ const SkillsSection = () => {
                   </motion.div>
                 ))}
               </div>
+              {category.projectLink && (
+                <a
+                  href={category.projectLink}
+                  className="inline-block mt-6 text-sm font-semibold underline underline-offset-4"
+                  style={{ color: themeColors.primaryColor }}
+                >
+                  Explore Mixify →
+                </a>
+              )}
             </motion.div>
           ))}
         </div>
