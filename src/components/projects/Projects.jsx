@@ -19,14 +19,14 @@ const projects = [
   },
   {
     title: "Children Choice Books",
-    subtitle: "Office Website, Hosting & Database Management",
+    subtitle: "Website, Hosting & Database Management",
     description:
-      "The office website for Children Choice Publication, an educational publishing house. My work covers website and content updates, hosting and server administration through cPanel & WHM, and maintenance of the underlying MySQL database.",
+      "The website for Children Choice Publication, an educational publishing house. My work covers website and content updates, hosting and server administration through cPanel & WHM, and maintenance of the underlying MySQL database.",
     tags: ["Softr", "cPanel", "WHM", "Apache", "Linux", "MySQL", "phpMyAdmin"],
     image: "/children-choice-home.png",
     liveDemo: "/children-choice-books.html",
     liveDemoLabel: "View Project",
-    liveDemoDescription: "Explore the office website and my work",
+    liveDemoDescription: "Explore the website and my work",
     githubRepo: "",
     projectColor: "#2563eb",
   },
