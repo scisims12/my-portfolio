@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { useSelector } from "react-redux";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { FiArrowUp } from "react-icons/fi";
 import SocialLinks from "../FooterSocials";
 
 const Footer = () => {
@@ -61,7 +60,7 @@ const Footer = () => {
                 className="text-sm uppercase tracking-wider opacity-75"
                 style={{ color: themeColors.summeryText }}
               >
-                Website Developer • cPanel & WHM Specialist • MySQL Manager
+                SQL Database Administrator • Web & Android Developer
               </p>
             </motion.div>
 
@@ -73,8 +72,8 @@ const Footer = () => {
               viewport={{ once: true, margin: "-50px" }}
               style={{ color: themeColors.summeryText }}
             >
-              I build websites and manage the servers and databases behind
-              them, end to end.
+              I manage MySQL databases, build websites, and maintain Mixify,
+              an open-source Android music app built with Kotlin and Jetpack Compose.
             </motion.p>
           </div>
 
@@ -91,8 +90,8 @@ const Footer = () => {
                 className="text-sm mb-6 text-center lg:text-right"
                 style={{ color: themeColors.summeryText }}
               >
-                Let’s stay connected — I post dev notes, design experiments, and
-                bad jokes.
+                Explore my projects on GitHub and connect with me on LinkedIn
+                for work, collaborations, and development updates.
               </p>
               <div className="flex gap-4">
                 <SocialLinks />
@@ -112,11 +111,13 @@ const Footer = () => {
               className="text-sm mb-6 text-center lg:text-right"
               style={{ color: themeColors.summeryText }}
             >
-              Open to freelance, consulting, or just a tech chat over coffee.
+              Have a website, database, or Android project in mind?
+              Let’s talk about what we can build together.
             </p>
             <motion.a
               href="https://www.linkedin.com/in/priyanshu-sharma-a59293241/"
               target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden"
               style={{
                 backgroundColor: themeColors.primaryColor,
@@ -159,11 +160,15 @@ const Footer = () => {
           </motion.p>
 
           <div className="flex gap-6">
-            {["Privacy Policy", "Terms of Service", "Cookie Preferences"].map(
+            {[
+              { label: "Projects", href: "#projects" },
+              { label: "Mixify", href: "/mixify.html" },
+              { label: "Contact", href: "#contact" },
+            ].map(
               (item, index) => (
                 <motion.a
-                  key={index}
-                  href={`#`}
+                  key={item.label}
+                  href={item.href}
                   className="text-xs relative group"
                   initial={{ opacity: 0, y: 5 }}
                   whileInView={{ opacity: 0.7, y: 0 }}
@@ -171,7 +176,7 @@ const Footer = () => {
                   viewport={{ once: true, margin: "-50px" }}
                   style={{ color: themeColors.summeryText }}
                 >
-                  {item}
+                  {item.label}
                   <span
                     className="absolute left-0 bottom-0 w-0 h-px group-hover:w-full transition-all duration-300"
                     style={{ backgroundColor: themeColors.primaryColor }}
