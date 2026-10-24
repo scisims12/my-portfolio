@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { createPortal } from "react-dom";
 import { useSelector } from "react-redux";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 
@@ -63,12 +64,6 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
     setShowPopup(false);
   };
 
-  const handleOptionClick = (url) => {
-    if (url) {
-      window.open(url, "_blank", "noopener,noreferrer");
-    }
-    setShowPopup(false);
-  };
 
   return (
     <>
@@ -238,7 +233,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
       </motion.div>
 
       {/* Popup Overlay */}
-      <AnimatePresence>
+      {createPortal(<AnimatePresence>
         {showPopup && (
           <motion.div
             className="fixed inset-0 z-50 flex items-center justify-center p-4"
@@ -249,12 +244,13 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
             onClick={handlePopupClose}
           >
             <motion.div
-              className={`absolute inset-0 bg-[${project.projectColor}] bg-opacity-50`}
+              className="absolute inset-0 z-0"
+              style={{ backgroundColor: themeColors.overlay }}
               onClick={handlePopupClose}
             />
 
             <motion.div
-              className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-md w-full mx-auto p-6 border"
+              className="relative z-10 bg-white dark:bg-gray-800 rounded-2xl shadow-2xl max-w-md w-full mx-auto p-6 border"
               style={{
                 borderColor: themeColors.border,
                 backgroundColor: themeColors.bg,
@@ -271,12 +267,13 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
               >
                 {project.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <p className="mb-6" style={{ color: themeColors.summeryText }}>
                 Choose an option to explore:
               </p>
 
               <div className="space-y-3">
-                <motion.button
+                <motion.a
+                  href={project.liveDemo || project.link}
                   className="w-full flex items-center justify-between p-4 rounded-xl border transition-all duration-200 group"
                   style={{
                     borderColor: themeColors.border,
@@ -288,9 +285,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                     borderColor: project.projectColor,
                   }}
                   whileTap={{ scale: 0.98 }}
-                  onClick={() =>
-                    handleOptionClick(project.liveDemo || project.link)
-                  }
+                  onClick={(event) => event.stopPropagation()}
                 >
                   <div className="flex items-center">
                     <div
@@ -339,10 +334,11 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                </motion.button>
+                </motion.a>
 
                 {project.githubRepo && (
-                  <motion.button
+                  <motion.a
+                    href={project.githubRepo}
                     className="w-full flex items-center justify-between p-4 rounded-xl border transition-all duration-200 group"
                     style={{
                       borderColor: themeColors.border,
@@ -354,7 +350,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                       borderColor: project.projectColor,
                     }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={() => handleOptionClick(project.githubRepo)}
+                    onClick={(event) => event.stopPropagation()}
                   >
                     <div className="flex items-center">
                       <div
@@ -403,7 +399,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                         clipRule="evenodd"
                       />
                     </svg>
-                  </motion.button>
+                  </motion.a>
                 )}
               </div>
 
@@ -425,7 +421,7 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
             </motion.div>
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence>, document.body)}
     </>
   );
 }
