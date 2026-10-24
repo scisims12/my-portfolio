@@ -316,13 +316,13 @@ function ProjectCard({ project, index, isHovered, setHoveredProject }) {
                         className="font-semibold"
                         style={{ color: themeColors.text }}
                       >
-                        Live Demo
+                        {project.liveDemoLabel || "Live Demo"}
                       </div>
                       <div
                         className="text-sm opacity-70"
                         style={{ color: themeColors.text }}
                       >
-                        View deployed project
+                        {project.liveDemoDescription || "View deployed project"}
                       </div>
                     </div>
                   </div>

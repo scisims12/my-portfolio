@@ -5,6 +5,19 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Mixify",
+    subtitle: "Open-Source Android Music App",
+    description:
+      "An Android music app I maintain and extend with Kotlin and Jetpack Compose. Mixify brings together synced lyrics, offline listening, playlist management and Listen Together rooms. My enhancements include a custom lock-screen player with lyrics, song and lyrics share cards, room-sharing links and UI refinements.",
+    tags: ["Android", "Kotlin", "Jetpack Compose", "Synced Lyrics", "Listen Together"],
+    image: "/mixify-project.svg",
+    liveDemo: "https://mixify.co.in/",
+    liveDemoLabel: "Visit Mixify",
+    liveDemoDescription: "Explore features and download the Android app",
+    githubRepo: "https://github.com/scisims12/Mixify",
+    projectColor: "#8B5CF6",
+  },
+  {
     title: "Children Choice Books",
     subtitle: "Website, Hosting & Database — Full Ownership",
     description:
@@ -163,7 +176,7 @@ const ProjectTimeline = () => {
                   className="font-bold"
                   style={{ color: themeColors.primaryColor }}
                 >
-                  About this project:{" "}
+                  About Children Choice Books:{" "}
                 </span>
                 childrenchoicebooks.com is a real, live production website
                 that I own across the full stack —{" "}
@@ -187,7 +200,7 @@ const ProjectTimeline = () => {
                 >
                   the database behind it
                 </span>
-                . The three views above show the site, its content layer,
+                . The three Children Choice Books cards show the site, its content layer,
                 and the{" "}
                 <span
                   className="font-semibold"
