@@ -71,7 +71,7 @@ const SkillsSection = () => {
     hosting: {
       title: "Server & Hosting",
       description:
-        "Managing hosting accounts, domains, and server configuration for live websites.",
+        "Managing hosting accounts, domains and server settings through cPanel & WHM in a CloudLinux environment.",
       icons: [
         {
           name: "cPanel",
@@ -84,12 +84,7 @@ const SkillsSection = () => {
           tooltipColor: "#FF6C2C",
         },
         {
-          name: "Apache",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
-          tooltipColor: "#D22128",
-        },
-        {
-          name: "Linux",
+          name: "CloudLinux",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
           tooltipColor: "#FCC624",
         },

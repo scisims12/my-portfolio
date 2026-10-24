@@ -1,15 +1,15 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in three areas: building websites (using tools like Softr along with HTML, CSS, and JavaScript), server & hosting administration (cPanel, WHM, Apache on Linux), and database management (MySQL, phpMyAdmin). I handle a project end-to-end, from the front-end pages down to the server it runs on."
+    "answer": "I specialize in three areas: building websites (using tools like Softr along with HTML, CSS, and JavaScript), server & hosting administration (cPanel & WHM in a CloudLinux environment), and database management (MySQL, phpMyAdmin). I handle a project end-to-end, from the front-end pages down to the server it runs on."
   },
   {
     "question": "What kind of projects have you built?",
-    "answer": "My main project is childrenchoicebooks.com, where I handle the website itself as well as the hosting and server side — cPanel/WHM configuration, Apache setup, and the MySQL database that powers the site."
+    "answer": "My main project is childrenchoicebooks.com, where I handle the website itself as well as the hosting and server side — cPanel/WHM configuration in a CloudLinux environment, and the MySQL database that powers the site."
   },
   {
     "question": "Do you have experience managing servers and hosting?",
-    "answer": "Yes. I work daily with cPanel and WHM to manage hosting accounts, domains, and server settings, and I'm comfortable configuring Apache on Linux servers to keep sites running reliably."
+    "answer": "Yes. I use cPanel and WHM to manage hosting accounts, domains and server settings in a CloudLinux environment, and troubleshoot hosting-related issues."
   },
   {
     "question": "How do you manage databases?",

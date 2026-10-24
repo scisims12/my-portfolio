@@ -60,9 +60,9 @@ function RightSideContent() {
               </li>
 
               <li>
-                <Highlight>Apache, Linux</Highlight>: Keeping the server side
-                of a website running — configuring Apache and working
-                comfortably in a Linux server environment.
+                <Highlight>CloudLinux Hosting</Highlight>: Managing hosting
+                accounts, domains and server settings through cPanel &amp; WHM
+                in a CloudLinux environment.
               </li>
 
               <li>

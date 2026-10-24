@@ -1,6 +1,6 @@
 {
   "id": "hosting-bundle",
-  "subtitle": "I build and manage websites end-to-end — from front-end pages to the servers that run them. I specialize in cPanel & WHM administration, Apache/Linux server management, and MySQL database management, with hands-on experience delivering and maintaining childrenchoicebooks.com.",
+  "subtitle": "I build and manage websites end-to-end — from front-end pages to the servers that run them. I specialize in cPanel & WHM administration, CloudLinux hosting management, and MySQL database management, with hands-on experience delivering and maintaining childrenchoicebooks.com.",
   "badge": "Website Developer / cPanel & WHM Specialist </>",
   "gradient": "from-blue-400 via-cyan-400 to-indigo-500",
   "buttonColor": "from-blue-500 to-indigo-500",
@@ -12,7 +12,7 @@
       "duration": "Dec 2025 - Present",
       "description": [
         "Building and maintaining childrenchoicebooks.com, handling everything from page updates to backend upkeep.",
-        "Managing hosting and server infrastructure via cPanel & WHM, including Apache configuration on Linux servers.",
+        "Managing hosting accounts, domains and server settings through cPanel & WHM in a CloudLinux environment.",
         "Handling MySQL databases directly and through phpMyAdmin — schema updates, queries, backups, and troubleshooting."
       ],
       "icon": "💻"
@@ -31,42 +31,35 @@
       "name": "cPanel",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cpanel/cpanel-original.svg",
       "size": "large",
-      "angle": 0,
+      "angle": 0.0,
       "tooltipColor": "#FF6C2C"
     },
     {
-      "name": "Apache",
-      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
-      "size": "large",
-      "angle": 60,
-      "tooltipColor": "#D22128"
-    },
-    {
-      "name": "Linux",
+      "name": "CloudLinux",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
       "size": "large",
-      "angle": 120,
+      "angle": 72.0,
       "tooltipColor": "#FCC624"
     },
     {
       "name": "MySQL",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       "size": "large",
-      "angle": 180,
+      "angle": 144.0,
       "tooltipColor": "#4479A1"
     },
     {
       "name": "phpMyAdmin",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       "size": "large",
-      "angle": 240,
+      "angle": 216.0,
       "tooltipColor": "#6C78AF"
     },
     {
       "name": "WHM",
       "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cpanel/cpanel-original.svg",
       "size": "large",
-      "angle": 300,
+      "angle": 288.0,
       "tooltipColor": "#FF6C2C"
     },
     {
