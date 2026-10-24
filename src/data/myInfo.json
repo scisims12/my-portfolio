@@ -7,15 +7,47 @@
   "image": "/priyanshu-sharma.png",
   "experience": [
     {
-      "title": "Website Developer, Server & Database Management",
-      "location": "Children Choice Publication",
+      "title": "SQL Database Administrator",
+      "location": "Children Choice Publication Pvt Ltd",
       "duration": "Dec 2025 - Present",
       "description": [
         "Building and maintaining childrenchoicebooks.com, handling everything from page updates to backend upkeep.",
         "Managing hosting accounts, domains and server settings through cPanel & WHM in a CloudLinux environment.",
         "Handling MySQL databases directly and through phpMyAdmin — schema updates, queries, backups, and troubleshooting."
       ],
-      "icon": "💻"
+      "icon": "💻",
+      "details": "Full-time · Meerut, Uttar Pradesh, India · On-site"
+    },
+    {
+      "title": "Human Resources Specialist",
+      "location": "Amrit Life Care Ayurveda",
+      "duration": "Jun 2025 - Dec 2025",
+      "details": "Full-time · Delhi, India · On-site",
+      "description": [
+        "Focus areas: HR Start-up and E-Commerce."
+      ],
+      "icon": "👥"
+    },
+    {
+      "title": "Telemarketing Specialist",
+      "location": "Amrit Life Care Ayurveda",
+      "duration": "Mar 2025 - Jun 2025",
+      "details": "Full-time · Delhi, India · On-site",
+      "description": [
+        "Handled the website and worked on SEO.",
+        "Skills: Search Engine Optimization (SEO) and WordPress."
+      ],
+      "icon": "📞"
+    },
+    {
+      "title": "Search Engine Optimization Executive",
+      "location": "Parami Marketers",
+      "duration": "Sep 2022 - Nov 2022",
+      "details": "Full-time · Delhi, India",
+      "description": [
+        "Worked on off-page search engine optimization (SEO)."
+      ],
+      "icon": "🔎"
     }
   ],
   "education": [

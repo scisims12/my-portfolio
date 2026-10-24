@@ -58,6 +58,12 @@ function EducationCard({ item }) {
             {item.location}
           </p>
 
+          {item.details && (
+            <p className="text-xs mb-3 leading-relaxed" style={{ color: themeColors.summeryText }}>
+              {item.details}
+            </p>
+          )}
+
           <span
             className="inline-block px-3 py-1 text-xs font-semibold rounded-full"
             style={{
