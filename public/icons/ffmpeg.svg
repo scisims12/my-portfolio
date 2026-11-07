@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+<title id="title">FFmpeg</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#70dc43"/><stop offset="1" stop-color="#238e34"/></linearGradient></defs>
+<rect x="7" y="17" width="114" height="94" rx="22" fill="#14241a" stroke="#368e46" stroke-width="3"/>
+<path d="M23 45h16l10-11h12L42 54l19 18H49L38 61H23zM65 34h13L59 54l19 18H65L46 54zM82 34h13L76 54l19 18H82L63 54zM99 34h8v38h-8L80 54z" fill="url(#g)"/>
+<rect x="24" y="83" width="80" height="7" rx="3.5" fill="#65c95e"/>
+<rect x="24" y="95" width="54" height="5" rx="2.5" fill="#326d3e"/>
+</svg>
