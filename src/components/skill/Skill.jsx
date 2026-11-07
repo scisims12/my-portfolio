@@ -40,6 +40,7 @@ const SkillsSection = () => {
       description:
         "Maintaining and extending Mixify with Kotlin and Jetpack Compose — custom lock-screen playback, synced lyrics, share cards and Listen Together room links.",
       projectLink: "/mixify.html",
+      projectLabel: "Explore Mixify",
       icons: [
         {
           name: "Android",
@@ -65,6 +66,42 @@ const SkillsSection = () => {
           name: "Android Studio",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
           tooltipColor: "#3DDC84",
+        },
+      ],
+    },
+    watchify: {
+      title: "Backend & Real-Time Development",
+      description:
+        "Built Watchify using Node.js, Express and Socket.IO — synchronized video playback, live rooms, host controls, shared queues and Google Drive integration.",
+      projectLink: "/watchify.html",
+      projectLabel: "Explore Watchify",
+      icons: [
+        {
+          name: "Node.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          tooltipColor: "#339933",
+        },
+        {
+          name: "Express.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          tooltipColor: "#777777",
+          invertOnDark: true,
+        },
+        {
+          name: "Socket.IO",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+          tooltipColor: "#777777",
+          invertOnDark: true,
+        },
+        {
+          name: "JavaScript",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          tooltipColor: "#F7DF1E",
+        },
+        {
+          name: "FFmpeg",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ffmpeg/ffmpeg-original.svg",
+          tooltipColor: "#007808",
         },
       ],
     },
@@ -134,7 +171,7 @@ const SkillsSection = () => {
         <SectionHeader
           title={"Explore My"}
           highlight={"Skills"}
-          subtitle={"Website & Android development, server & hosting, and database management"}
+          subtitle={"Frontend, Android, backend & real-time development, server hosting, and databases"}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -203,7 +240,7 @@ const SkillsSection = () => {
                         alt={tech.name}
                         className="w-8 h-8 object-contain z-10"
                         style={{
-                          filter: theme === "dark" ? "brightness(0.9)" : "none",
+                          filter: theme === "dark" && tech.invertOnDark ? "invert(1)" : theme === "dark" ? "brightness(0.9)" : "none",
                         }}
                       />
                     </motion.div>
@@ -256,7 +293,7 @@ const SkillsSection = () => {
                   className="inline-block mt-6 text-sm font-semibold underline underline-offset-4"
                   style={{ color: themeColors.primaryColor }}
                 >
-                  Explore Mixify →
+                  {category.projectLabel || "Explore project"} →
                 </a>
               )}
             </motion.div>
