@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<title id="title">Watchify watch-party project</title>
+<desc id="desc">Watchify logo and a cinematic synchronized video player mockup in a premium dark blue and purple theme.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121b35"/><stop offset=".55" stop-color="#0c101d"/><stop offset="1" stop-color="#271333"/></linearGradient>
+<linearGradient id="logo" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d98ff"/><stop offset=".6" stop-color="#5662ed"/><stop offset="1" stop-color="#ae55da"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a2a4b"/><stop offset=".55" stop-color="#101728"/><stop offset="1" stop-color="#35203b"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="960" height="560" rx="34" fill="url(#bg)"/>
+<ellipse cx="670" cy="150" rx="270" ry="190" fill="#5069ee" opacity=".15" filter="url(#shadow)"/>
+<ellipse cx="230" cy="480" rx="220" ry="120" fill="#a452de" opacity=".1" filter="url(#shadow)"/>
+<rect x="66" y="58" width="70" height="70" rx="20" fill="url(#logo)"/>
+<path d="m82 83 10 28 12-18 12 18 11-28" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m116 69 15 9-15 9z" fill="#fff"/>
+<text x="153" y="104" fill="#f5f6ff" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="-1.5">Watchify</text>
+<text x="68" y="169" fill="#b6bed7" font-family="Inter,Arial,sans-serif" font-size="23">Movies are better together.</text>
+<rect x="70" y="213" width="820" height="282" rx="25" fill="#101521" stroke="#6474a1" stroke-opacity=".34" stroke-width="2"/>
+<rect x="88" y="232" width="604" height="244" rx="16" fill="url(#screen)"/>
+<circle cx="390" cy="350" r="43" fill="#171d2f" fill-opacity=".82" stroke="#a3b5e5" stroke-opacity=".45" stroke-width="2"/>
+<path d="m379 327 35 23-35 23z" fill="#fff"/>
+<rect x="105" y="439" width="565" height="18" rx="9" fill="#273047"/>
+<rect x="105" y="439" width="210" height="18" rx="9" fill="#678bff"/>
+<circle cx="315" cy="448" r="12" fill="#fff"/>
+<rect x="713" y="232" width="159" height="244" rx="16" fill="#1e2130"/>
+<text x="731" y="267" fill="#56dd9d" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">● 3 watching</text>
+<rect x="731" y="293" width="125" height="28" rx="14" fill="#313850"/>
+<text x="745" y="311" fill="#f1f4ff" font-family="Inter,Arial,sans-serif" font-size="13">Live chat</text>
+<rect x="731" y="337" width="118" height="10" rx="5" fill="#515a74"/>
+<rect x="731" y="358" width="101" height="10" rx="5" fill="#424b66"/>
+<rect x="731" y="379" width="111" height="10" rx="5" fill="#515a74"/>
+<rect x="731" y="427" width="122" height="28" rx="14" fill="#356ce9"/>
+<text x="750" y="445" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">Send message</text>
+<text x="70" y="537" fill="#aab3d6" font-family="Inter,Arial,sans-serif" font-size="17">REAL-TIME SYNC  •  GOOGLE DRIVE  •  LIVE CHAT  •  MULTI-LANGUAGE AUDIO</text>
+</svg>

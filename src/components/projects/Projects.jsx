@@ -18,6 +18,19 @@ const projects = [
     projectColor: "#8B5CF6",
   },
   {
+    title: "Watchify",
+    subtitle: "Real-Time Watch Party Platform",
+    description:
+      "A responsive watch-party web app I built with Node.js, Express, and Socket.IO. Watchify lets friends watch videos in sync with live chat, private rooms, host controls, a shared queue, Google Drive streaming, automatic audio compatibility, and multi-language soundtrack selection.",
+    tags: ["Node.js", "Express", "Socket.IO", "Google Drive", "FFmpeg", "Real-Time Sync"],
+    image: "/watchify-project.svg",
+    liveDemo: "https://watchify.mixify.co.in/",
+    liveDemoLabel: "Open Watchify",
+    liveDemoDescription: "Create a room and watch together in real time",
+    githubRepo: "https://github.com/scisims12/watchify",
+    projectColor: "#5865F2",
+  },
+  {
     title: "Children Choice Books",
     subtitle: "Website, Hosting & Database Management",
     description:
