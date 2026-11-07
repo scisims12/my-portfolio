@@ -100,7 +100,7 @@ const SkillsSection = () => {
         },
         {
           name: "FFmpeg",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ffmpeg/ffmpeg-original.svg",
+          src: "/icons/ffmpeg.svg",
           tooltipColor: "#007808",
         },
       ],
