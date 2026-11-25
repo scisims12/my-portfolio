@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="title desc">
+  <title id="title">Children Choice Books — website project</title>
+  <desc id="desc">A portfolio project for Children Choice Books, illustrated with a browser window, book covers, a gently moving bookmark and a tracing underline. This is a decorative illustration, not a website screenshot.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132431"/><stop offset="1" stop-color="#0b1421"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ce1e6"/><stop offset="1" stop-color="#3c9da9"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#203044" stroke-opacity=".22"/></pattern>
+    <clipPath id="bounds"><rect width="800" height="400" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:'Segoe UI',Arial,sans-serif}.mono{font-family:Consolas,'Courier New',monospace}
+    .float{animation:float 8s ease-in-out infinite}.bookmark{animation:bookmark 8s ease-in-out infinite}
+    .trace{stroke-dasharray:200;animation:trace 8s ease-in-out infinite}.spark{animation:spark 4s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    @keyframes bookmark{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+    @keyframes trace{0%,100%{stroke-dashoffset:0;opacity:1}50%{stroke-dashoffset:200;opacity:.35}}
+    @keyframes spark{0%,100%{opacity:.35}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.float,.bookmark,.trace,.spark{animation:none}}
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="800" height="400" fill="#080e19"/>
+    <rect x="400" width="400" height="400" fill="url(#grid)"/>
+    <path d="M410 0V400" stroke="#203044"/>
+    <text x="40" y="49" fill="#7e96aa" font-size="12" letter-spacing="2.4" class="mono">02 / SELECTED PROJECT</text>
+    <rect x="40" y="83" width="38" height="4" rx="2" fill="#5ce1e6"/>
+    <text x="38" y="138" fill="#f2f8fa" font-size="39" font-weight="750" letter-spacing="-1">CHILDREN</text>
+    <text x="38" y="183" fill="#f2f8fa" font-size="39" font-weight="750" letter-spacing="-1">CHOICE BOOKS</text>
+    <text x="42" y="223" fill="#5ce1e6" font-size="18">A place for the next chapter.</text>
+    <text x="42" y="265" fill="#9cb0c2" font-size="16">Explore the website and</text>
+    <text x="42" y="291" fill="#9cb0c2" font-size="16">my dedicated project overview.</text>
+    <rect x="40" y="321" width="151" height="31" rx="15.5" fill="#10252c" stroke="#274047"/>
+    <circle cx="57" cy="337" r="3" fill="#5ce1e6" class="spark"/>
+    <text x="68" y="342" fill="#5ce1e6" font-size="11" class="mono">WEBSITE PROJECT</text>
+    <circle cx="607" cy="212" r="157" fill="none" stroke="#203044" stroke-dasharray="2 9"/>
+    <g>
+      <rect x="441" y="74" width="316" height="248" rx="15" fill="url(#panel)" stroke="#344c60"/>
+      <path d="M442 109H756" stroke="#2a4052"/>
+      <circle cx="457" cy="92" r="3" fill="#5ce1e6"/><circle cx="469" cy="92" r="3" fill="#486476"/><circle cx="481" cy="92" r="3" fill="#486476"/>
+      <rect x="515" y="86" width="177" height="12" rx="6" fill="#1c3041"/>
+      <text x="463" y="143" fill="#5ce1e6" font-size="10" letter-spacing="1.2" class="mono">CHILDREN CHOICE BOOKS</text>
+      <path d="M463 159H624" stroke="#5ce1e6" stroke-width="2" class="trace"/>
+      <rect x="463" y="177" width="271" height="44" rx="5" fill="#1a2f3c"/>
+      <rect x="474" y="189" width="123" height="5" rx="2" fill="#7196a8"/>
+      <rect x="474" y="202" width="87" height="4" rx="2" fill="#426271"/>
+      <circle cx="710" cy="199" r="11" fill="#bcf56b"/>
+      <path d="M706 199H714M711 196L714 199L711 202" fill="none" stroke="#1c302c" stroke-width="1.5"/>
+      <rect x="463" y="238" width="76" height="64" rx="4" fill="#234148"/>
+      <rect x="550" y="238" width="77" height="64" rx="4" fill="#263b38"/>
+      <rect x="638" y="238" width="96" height="64" rx="4" fill="#253a4b"/>
+      <path d="M478 252H524M478 263H515M478 274H521M478 285H507" stroke="#51747c" stroke-width="2"/>
+      <path d="M566 253H612M566 265H602M566 277H609" stroke="#60766a" stroke-width="2"/>
+      <path d="M651 253H719M651 265H705M651 277H714" stroke="#506b82" stroke-width="2"/>
+    </g>
+    <g class="float">
+      <path d="M561 249L635 231L709 247V351L635 335L561 353Z" fill="#07101a" opacity=".45"/>
+      <path d="M550 241Q593 227 635 241Q677 227 720 241V338Q676 324 635 339Q593 324 550 338Z" fill="#bbd0cf" stroke="#223d49" stroke-width="2"/>
+      <path d="M550 234Q593 220 635 234V330Q593 315 550 330Z" fill="#dce9dc"/>
+      <path d="M635 234Q677 220 720 234V330Q676 315 635 330Z" fill="#b8d5d1"/>
+      <path d="M635 234V330" stroke="#7aa29e" stroke-width="2"/>
+      <path d="M565 252Q589 245 619 251M565 264Q589 257 619 263M565 276Q589 269 619 275M565 288Q589 281 608 285M565 307Q589 300 619 306" fill="none" stroke="#7f9b8e" stroke-width="2"/>
+      <path d="M650 253Q678 246 704 252M650 265Q678 258 704 264M650 277Q678 270 704 276M650 289Q676 283 695 287M650 307Q678 300 704 306" fill="none" stroke="#6d9691" stroke-width="2"/>
+      <path d="M673 229L688 229V270L680 264L673 270Z" fill="#5ce1e6" class="bookmark"/>
+    </g>
+    <path d="M468 344H488M478 334V354" stroke="#bcf56b" class="spark"/>
+    <path d="M725 49H739M732 42V56" stroke="#5ce1e6" class="spark"/>
+    <circle cx="752" cy="361" r="3" fill="#bcf56b" class="spark"/>
+  </g>
+  <rect x=".5" y=".5" width="799" height="399" rx="19.5" fill="none" stroke="#203044"/>
+</svg>

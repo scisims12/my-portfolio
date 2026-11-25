@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Let's build something worth opening.</title><desc id="desc">Connect with Priyanshu for website, database or Android development enquiries.</desc>
+  <style>text{font-family:'Segoe UI',Arial,sans-serif}.ring{transform-origin:1040px 125px;animation:spin 8s linear infinite}.line{animation:flow 4s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes flow{to{stroke-dashoffset:-600}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect x="1" y="1" width="1198" height="248" rx="16" fill="#080e19" stroke="#203044"/>
+  <text x="44" y="50" fill="#bcf56b" font-size="12" letter-spacing="3">NEXT / YOUR IDEA</text>
+  <text x="42" y="108" fill="#edf4f8" font-size="39" font-weight="700" letter-spacing="-1">Let's build something</text>
+  <text x="42" y="156" fill="#5ce1e6" font-size="39" font-weight="700" letter-spacing="-1">worth opening.</text>
+  <text x="44" y="204" fill="#91a8b8" font-size="16">Websites · Databases · Android development</text>
+  <circle cx="1040" cy="125" r="74" fill="#101f2b" stroke="#2a4955"/>
+  <circle class="ring" cx="1040" cy="125" r="90" fill="none" stroke="#5ce1e6" stroke-dasharray="100 35 5 35"/>
+  <path d="M1012 153L1068 97M1016 97H1068V149" fill="none" stroke="#bcf56b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 232H1156" stroke="#203044"/><path class="line" d="M44 232H1156" stroke="#5ce1e6" stroke-width="2" stroke-dasharray="50 550"/>
+</svg>

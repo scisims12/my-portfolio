@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Meet Priyanshu</title><desc id="desc">A terminal introducing Priyanshu's work in databases, websites, servers and Android development.</desc>
+  <style>text{font-family:Consolas,'Courier New',monospace}.cursor{animation:pulse 2s ease-in-out infinite}.bar{animation:load 4s ease-in-out infinite;transform-origin:848px 270px}.packet{animation:move 4s linear infinite}@keyframes pulse{50%{opacity:.2}}@keyframes load{50%{transform:scaleX(.55)}}@keyframes move{to{stroke-dashoffset:-200}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <rect x="1" y="1" width="1198" height="368" rx="16" fill="#080e19" stroke="#203044"/>
+  <path d="M1 49H1199" stroke="#203044"/>
+  <circle cx="26" cy="25" r="5" fill="#ff6c7c"/><circle cx="45" cy="25" r="5" fill="#ebc46a"/><circle cx="64" cy="25" r="5" fill="#bcf56b"/>
+  <text x="600" y="30" text-anchor="middle" font-size="13" fill="#7e94a5">priyanshu@portfolio ~ /about</text>
+  <text x="34" y="91" fill="#bcf56b" font-size="17">$ whoami</text>
+  <text x="34" y="127" fill="#edf4f8" font-size="22" font-weight="bold">Priyanshu Sharma</text>
+  <text x="34" y="162" fill="#5ce1e6" font-size="16">SQL Database Administrator + Web &amp; Android Developer</text>
+  <text x="34" y="208" fill="#91a8b8" font-size="16">&gt; Manage MySQL databases.</text>
+  <text x="34" y="237" fill="#91a8b8" font-size="16">&gt; Build websites. Work with cPanel and WHM.</text>
+  <text x="34" y="266" fill="#91a8b8" font-size="16">&gt; Maintain Mixify, an open-source Android music app.</text>
+  <text x="34" y="326" fill="#bcf56b" font-size="17">$ explore ./projects</text><rect class="cursor" x="243" y="310" width="10" height="20" fill="#bcf56b"/>
+  <path d="M800 80V330" stroke="#203044"/>
+  <text x="848" y="104" fill="#78909d" font-size="12" letter-spacing="2">CURRENT TOOLBOX</text>
+  <text x="848" y="145" fill="#eef4f8" font-size="20">DATABASES</text>
+  <text x="848" y="176" fill="#5ce1e6" font-size="17">WEB / SERVERS</text>
+  <text x="848" y="207" fill="#bcf56b" font-size="17">ANDROID / MUSIC</text>
+  <rect x="848" y="263" width="290" height="4" rx="2" fill="#203044"/><rect class="bar" x="848" y="263" width="290" height="4" rx="2" fill="#5ce1e6"/>
+  <path d="M848 295H1138" stroke="#bcf56b" stroke-dasharray="12 188" class="packet"/>
+  <text x="848" y="325" fill="#78909d" font-size="12">DATA → INTERFACE → EXPERIENCE</text>
+</svg>

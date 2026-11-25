@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="title desc">
+  <title id="title">Mixify — an open-source Android music app</title>
+  <desc id="desc">Kotlin and Jetpack Compose project, illustrated with an animated music player and equalizer. This is a decorative illustration, not an app screenshot.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#080e19"/></linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bcf56b"/><stop offset="1" stop-color="#5ce1e6"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#203044" stroke-opacity=".22"/></pattern>
+    <clipPath id="bounds"><rect width="800" height="400" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+    .orbit{transform-origin:611px 190px;animation:spin 8s linear infinite}
+    .beat{transform-box:fill-box;transform-origin:center bottom;animation:beat 2s ease-in-out infinite alternate}
+    .b2{animation-delay:-.3s}.b3{animation-delay:-.9s}.b4{animation-delay:-1.3s}.b5{animation-delay:-.6s}
+    .signal{animation:signal 4s ease-in-out infinite}.scan{animation:scan 8s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}} @keyframes beat{0%{transform:scaleY(.35)}100%{transform:scaleY(1)}}
+    @keyframes signal{0%,100%{opacity:.5}50%{opacity:1}} @keyframes scan{0%,100%{stroke-dashoffset:320}50%{stroke-dashoffset:0}}
+    @media(prefers-reduced-motion:reduce){.orbit,.beat,.signal,.scan{animation:none}}
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="800" height="400" fill="#080e19"/>
+    <rect x="400" width="400" height="400" fill="url(#grid)"/>
+    <path d="M410 0V400" stroke="#203044"/>
+    <circle cx="611" cy="190" r="156" fill="none" stroke="#203044"/>
+    <circle cx="611" cy="190" r="177" fill="none" stroke="#203044" stroke-dasharray="2 9"/>
+    <g class="orbit"><circle cx="611" cy="34" r="5" fill="#bcf56b"/><circle cx="611" cy="346" r="3" fill="#5ce1e6"/></g>
+    <text x="40" y="49" fill="#7e96aa" font-size="12" letter-spacing="2.4" class="mono">01 / SELECTED PROJECT</text>
+    <rect x="40" y="83" width="38" height="4" rx="2" fill="#bcf56b"/>
+    <text x="37" y="153" fill="#f2f8fa" font-size="64" font-weight="750" letter-spacing="-2">MIXIFY</text>
+    <text x="42" y="188" fill="#bcf56b" font-size="18">Music. Built for Android.</text>
+    <text x="42" y="230" fill="#9cb0c2" font-size="16">An open-source music app.</text>
+    <text x="42" y="256" fill="#9cb0c2" font-size="16">Built with Kotlin and</text>
+    <text x="42" y="282" fill="#9cb0c2" font-size="16">Jetpack Compose.</text>
+    <rect x="40" y="321" width="101" height="31" rx="15.5" fill="#14251f" stroke="#304638"/>
+    <circle cx="57" cy="337" r="3" fill="#bcf56b" class="signal"/>
+    <text x="68" y="342" fill="#bcf56b" font-size="11" class="mono">ANDROID</text>
+    <rect x="151" y="321" width="137" height="31" rx="15.5" fill="#111e2b" stroke="#203044"/>
+    <text x="168" y="342" fill="#a9bac9" font-size="11" class="mono">OPEN SOURCE</text>
+    <g>
+      <rect x="509" y="28" width="204" height="345" rx="29" fill="#080e19" stroke="#415567" stroke-width="2"/>
+      <rect x="519" y="38" width="184" height="325" rx="22" fill="url(#panel)"/>
+      <rect x="580" y="45" width="62" height="6" rx="3" fill="#080e19"/>
+      <text x="538" y="82" fill="#7893a7" font-size="9" letter-spacing="2" class="mono">MIXIFY / MUSIC</text>
+      <rect x="537" y="101" width="148" height="148" rx="18" fill="#182b32"/>
+      <circle cx="611" cy="175" r="52" fill="url(#disc)"/>
+      <circle cx="611" cy="175" r="40" fill="none" stroke="#0e2830" stroke-opacity=".32"/>
+      <circle cx="611" cy="175" r="29" fill="none" stroke="#0e2830" stroke-opacity=".32"/>
+      <circle cx="611" cy="175" r="13" fill="#11242c"/>
+      <circle cx="611" cy="175" r="4" fill="#bcf56b"/>
+      <rect x="553" y="219" width="5" height="13" rx="2" fill="#bcf56b" class="beat"/>
+      <rect x="565" y="211" width="5" height="21" rx="2" fill="#bcf56b" class="beat b2"/>
+      <rect x="577" y="203" width="5" height="29" rx="2" fill="#bcf56b" class="beat b3"/>
+      <rect x="589" y="214" width="5" height="18" rx="2" fill="#bcf56b" class="beat b4"/>
+      <rect x="601" y="201" width="5" height="31" rx="2" fill="#bcf56b" class="beat b5"/>
+      <rect x="613" y="209" width="5" height="23" rx="2" fill="#5ce1e6" class="beat b3"/>
+      <rect x="625" y="199" width="5" height="33" rx="2" fill="#5ce1e6" class="beat b2"/>
+      <rect x="637" y="214" width="5" height="18" rx="2" fill="#5ce1e6" class="beat b4"/>
+      <rect x="649" y="206" width="5" height="26" rx="2" fill="#5ce1e6" class="beat"/>
+      <rect x="661" y="216" width="5" height="16" rx="2" fill="#5ce1e6" class="beat b5"/>
+      <path d="M539 275H683" stroke="#2b4352" stroke-width="3" stroke-linecap="round"/>
+      <path d="M539 275H683" stroke="#5ce1e6" stroke-width="3" stroke-linecap="round" stroke-dasharray="144 176" class="scan"/>
+      <path d="M564 309V321M579 309L568 315L579 321Z" fill="#8da7b8" stroke="#8da7b8" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="611" cy="315" r="22" fill="#bcf56b"/>
+      <path d="M606 306H610V324H606ZM614 306H618V324H614Z" fill="#102022"/>
+      <path d="M658 309V321M643 309L654 315L643 321Z" fill="#8da7b8" stroke="#8da7b8" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <path d="M745 340H767M756 329V351" stroke="#5ce1e6" stroke-opacity=".7"/>
+  </g>
+  <rect x=".5" y=".5" width="799" height="399" rx="19.5" fill="none" stroke="#203044"/>
+</svg>

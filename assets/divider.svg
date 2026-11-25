@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="32" viewBox="0 0 1200 32" role="img" aria-label="Animated cyan and lime circuit separator">
+  <style>.signal{animation:flow 4s linear infinite}.dot{animation:pulse 2s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-600}}@keyframes pulse{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+  <path d="M0 16H480L492 7H708L720 16H1200" fill="none" stroke="#243d4a"/>
+  <path class="signal" d="M0 16H480L492 7H708L720 16H1200" fill="none" stroke="#5ce1e6" stroke-width="2" stroke-dasharray="30 570"/>
+  <circle class="dot" cx="600" cy="7" r="3" fill="#bcf56b"/>
+</svg>
